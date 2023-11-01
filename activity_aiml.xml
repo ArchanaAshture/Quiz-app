@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".aiml">
+
+    <Button
+        android:id="@+id/optAimlA"
+        android:layout_width="150dp"
+        android:layout_height="67dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"
+        android:textSize="12sp"
+
+        app:backgroundTint="#FF4B78FF"
+        app:layout_constraintBottom_toTopOf="@+id/optAimlC"
+        app:layout_constraintEnd_toStartOf="@+id/optAimlB"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/optAimlB"
+        android:layout_width="150dp"
+        android:layout_height="69dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:backgroundTint="#FF4B78FF"
+        app:layout_constraintBottom_toTopOf="@+id/optAimlD"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/optAimlC"
+        android:layout_width="150dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginBottom="256dp"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:backgroundTint="#FF4B78FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/optAimlD"
+        app:layout_constraintHorizontal_bias="0.32"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/optAimlD"
+        android:layout_width="150dp"
+        android:layout_height="67dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="256dp"
+        android:textColor="@color/white"
+        android:textSize="10sp"
+        app:backgroundTint="#FF4B78FF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="138dp"
+        android:layout_height="161dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/aiml" />
+
+    <TextView
+        android:id="@+id/questionsAI"
+        android:layout_width="330dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="36dp"
+        android:fontFamily="@font/capriola"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.487"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5" />
+</androidx.constraintlayout.widget.ConstraintLayout>

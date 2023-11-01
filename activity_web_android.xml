@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".webAndroid">
+
+<!--    <Button-->
+<!--        android:id="@+id/button12"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="67dp"-->
+<!--        android:layout_marginTop="56dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:textColor="@color/white"-->
+
+<!--        android:text="Amazon"-->
+<!--        app:backgroundTint="#FF4B78FF"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/question" />-->
+
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="521dp"
+        android:paddingRight="20dp"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="#183b56"
+
+
+        android:background="@drawable/questions_bg"
+        android:elevation="6dp"
+        android:fontFamily="@font/capriola"
+        android:padding="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.619"
+        app:layout_constraintStart_toStartOf="parent" />
+
+<!--    <Button-->
+<!--        android:id="@+id/button"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="67dp"-->
+<!--        android:text="Google"-->
+<!--        android:textSize="14sp"-->
+<!--        app:backgroundTint="#FF4B78FF"-->
+<!--        android:textColor="@color/white"-->
+
+<!--        app:layout_constraintBottom_toTopOf="@+id/button11"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/button12"-->
+<!--        app:layout_constraintHorizontal_bias="0.581"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/question"-->
+<!--        app:layout_constraintVertical_bias="0.504" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button2"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="67dp"-->
+<!--        android:layout_marginEnd="40dp"-->
+<!--        android:layout_marginBottom="116dp"-->
+<!--        android:text="Apple"-->
+<!--        app:backgroundTint="#FF4B78FF"-->
+<!--        android:textColor="@color/white"-->
+
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/button12"-->
+<!--        app:layout_constraintVertical_bias="0.255" />-->
+
+<!--    <Button-->
+<!--        android:id="@+id/button11"-->
+<!--        android:layout_width="150dp"-->
+<!--        android:layout_height="67dp"-->
+<!--        android:layout_marginBottom="276dp"-->
+<!--        android:text="Microsoft"-->
+<!--        android:textColor="@color/white"-->
+
+<!--        app:backgroundTint="#FF4B78FF"-->
+<!--        app:layout_constraintBottom_toBottomOf="parent"-->
+<!--        app:layout_constraintEnd_toStartOf="@+id/button2"-->
+<!--        app:layout_constraintHorizontal_bias="0.581"-->
+<!--        app:layout_constraintStart_toStartOf="parent" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp"
+        app:circularflow_radiusInDP="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/question">
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@drawable/bg_button_option"
+            android:contentDescription="@string/app_name"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textColor="@drawable/text_bg"
+            app:cornerRadius="@android:dimen/thumbnail_height" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@drawable/bg_button_option"
+
+            android:contentDescription="@string/app_name"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textColor="@drawable/text_bg"
+            app:backgroundTint="#03A9F4"
+            app:cornerRadius="@android:dimen/thumbnail_height" />
+
+        <Button
+            android:id="@+id/button11"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@drawable/bg_button_option"
+
+            android:contentDescription="@string/app_name"
+
+            android:fontFamily="@font/ubuntu_bold"
+            android:textColor="@drawable/text_bg"
+            app:backgroundTint="#03A9F4"
+            app:cornerRadius="@android:dimen/thumbnail_height" />
+
+        <Button
+            android:id="@+id/button12"
+            android:layout_width="match_parent"
+            android:layout_height="67dp"
+            android:layout_margin="5dp"
+            android:backgroundTint="@drawable/bg_button_option"
+            android:contentDescription="@string/app_name"
+
+            android:fontFamily="@font/ubuntu_bold"
+            android:textColor="@drawable/text_bg"
+            app:backgroundTint="#03A9F4"
+            app:cornerRadius="@android:dimen/thumbnail_height" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="270dp"
+        android:layout_height="128dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/web_android" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

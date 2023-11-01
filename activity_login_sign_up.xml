@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loginbg"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".loginSignUp">
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/loginInfo"
+            android:layout_margin="14dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp"
+            app:cardMaxElevation="4dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="30dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/ubuntu_bold"
+                    android:text="Login"
+                    android:textAlignment="center"
+                    android:textColor="#09A5FF"
+                    android:textSize="26sp"/>
+
+
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/loginUserName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Username"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/black"
+                    android:textSize="22sp"
+                    app:met_baseColor="@color/black"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/black"
+                    app:met_singleLineEllipsis="true" />
+
+                <com.rengwuxian.materialedittext.MaterialEditText
+                    android:id="@+id/loginUserPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="Password"
+                    android:inputType="textPassword"
+                    android:textColorHint="@color/black"
+                    android:textSize="22sp"
+                    app:met_baseColor="@color/black"
+                    app:met_floatingLabel="highlight"
+                    app:met_primaryColor="@color/black"
+                    app:met_singleLineEllipsis="true" />
+
+                <Button
+                    android:id="@+id/login_btn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textSize="18sp"
+                    android:textColor="#FFFFFF"
+                    android:backgroundTint="#09A5FF"
+                    android:text="Login" />
+
+            </LinearLayout>
+
+
+        </androidx.cardview.widget.CardView>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="14dp"-->
+<!--            android:weightSum="2"-->
+<!--            android:layout_below="@+id/loginInfo"-->
+<!--            android:orientation="horizontal">-->
+
+
+<!--            <Button-->
+<!--                android:id="@+id/signUp_btn"-->
+<!--                android:layout_weight="1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="Sign Up"-->
+<!--                style="@style/Widget.AppCompat.Button.Colored"-->
+<!--                />-->
+<!--        </LinearLayout>-->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign up"
+        android:textAlignment="center"
+        android:textColor="#09A5FF"
+        android:textSize="16sp"
+        android:padding="18dp"
+
+        android:id="@+id/signUp_btn"
+        android:fontFamily="@font/ubuntu_bold"/>
+
+
+    \
+</LinearLayout>
