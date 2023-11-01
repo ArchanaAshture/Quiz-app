@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "439053403831",
+    "firebase_url": "https://codexcodingapp-default-rtdb.firebaseio.com",
+    "project_id": "codexcodingapp",
+    "storage_bucket": "codexcodingapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439053403831:android:44922975c20d311cd52f32",
+        "android_client_info": {
+          "package_name": "com.example.codex_thecodingapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439053403831-54p3p78etsu0qkgpjl8kivd5m9khghjk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.codex_thecodingapp",
+            "certificate_hash": "50e212366df2fa827b1641708ae4ae9553141748"
+          }
+        },
+        {
+          "client_id": "439053403831-9r5vjqch5d6pcad2c5icp8keqoe66jet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBCBRtemKUOc1dM9gLnUMJvmKI5XKpsttQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439053403831-9r5vjqch5d6pcad2c5icp8keqoe66jet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

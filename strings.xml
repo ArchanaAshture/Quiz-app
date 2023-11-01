@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CodeX-The Coding App</string>
+    <string name="shubham">Developed by <b>Shubham Pawar</b></string>
+    <string name="night_mode">Dark Mode</string>
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="preloaded_fonts" translatable="false">
+        <item>@font/alfa_slab_one</item>
+        <item>@font/amarante</item>
+        <item>@font/andika</item>
+        <item>@font/capriola</item>
+        <item>@font/carter_one</item>
+        <item>@font/diplomata_sc</item>
+        <item>@font/habibi</item>
+        <item>@font/hanalei_fill</item>
+        <item>@font/ubuntu_bold</item>
+    </array>
+</resources>
